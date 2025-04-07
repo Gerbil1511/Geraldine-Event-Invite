@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Wedding invite"</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Baskerville', serif;
+            font-size: 1.2em;
+            background-image: url('floral.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgb(79, 73, 79);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .invite-box {
+            background-color: rgba(250, 239, 238, 0.9);
+            border: 5px double rgb(210, 213, 202);
+            padding: 40px;
+            margin: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 90%;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: rgb(203, 103, 93);
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+            line-height: 1.2em;
+        }
+
+        .rsvp-btn {
+            background-color: rgb(210, 213, 202);
+            color: rgb(79, 73, 79);
+            padding: 10px 25px;
+            font-size: 1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .sign-off {
+            font-weight: bold;
+            font-style: italic;
+            color: rgb(203, 103, 93);
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        .footer {
+            font-family: cursive;
+            font-size: 1.3em;
+            color: rgb(79, 73, 79);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="invite-box">
+        <div class="invite-text">
+            <h1>You are cordially invited </h1>
+            <h2>To the union of two hearts</h2>
+
+            <p>It is with the greatest pleasure that we request the honour of your company at the wedding celebration of</p>
+            <p><strong>Miss Eliza Bennet</strong><br>and<br><strong>Mr. Fitzwilliam Darcy</strong></p>
+
+            <ul>
+                <li><strong>Date:</strong> Saturday, the 13th of June, 1812</li>
+                <li><strong>Time:</strong> Two o’clock in the afternoon</li>
+                <li><strong>Venue:</strong> The Rose Garden Hall, in the fair city of Birmingham</li>
+                <br>
+                <li><strong>RSVP:</strong> Plese respond by using the button below or by carrier pigeon no later than the 13th of May, 1812</li>
+            </ul>
+
+            <!-- RSVP Button -->
+            <div style="text-align: center;">
+                <button class="rsvp-btn">RSVP</button>
+            </div>
+
+
+            <p class="sign-off">We await your gracious reply with anticipation and joy.</p>
+
+            <p class="footer">The Bennet family</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
